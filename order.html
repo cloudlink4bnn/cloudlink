@@ -2,9 +2,10 @@
 
 <html>
 <head>
-    <title>Order</title>
+    <title>Order | CloudLink</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <div class="nav">
@@ -31,21 +32,23 @@
 <h1>Order</h1>
 
 <p>
-    Submit an order request below.
+    Submit an order request below and we will reach out with details.
 </p>
+
+<br><br>
 
 <form action="https://formspree.io/f/mykvqadj" method="POST">
 
     <input
         type="text"
         name="name"
-        placeholder="Name"
+        placeholder="Full Name"
         required>
 
     <input
         type="email"
         name="email"
-        placeholder="Email"
+        placeholder="Email Address"
         required>
 
     <input
@@ -55,14 +58,14 @@
 
     <textarea
         name="order"
-        placeholder="What would you like to order?"
         rows="5"
+        placeholder="What would you like to order?"
         required></textarea>
 
     <textarea
         name="event"
-        placeholder="Is this for an event?"
         rows="3"
+        placeholder="Is this for an event? If so, provide details."
         required></textarea>
 
     <button type="submit">
