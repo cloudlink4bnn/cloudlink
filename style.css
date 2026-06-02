@@ -55,3 +55,19 @@ button{
 button:hover{
     opacity:.9;
 }
+
+.nav{
+padding:30px 50px;
+border-bottom:1px solid #1f1f1f;
+}
+
+.nav a{
+color:white;
+text-decoration:none;
+margin-right:25px;
+font-size:14px;
+}
+
+.nav a:hover{
+opacity:.6;
+}
