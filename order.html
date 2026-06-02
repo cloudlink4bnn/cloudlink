@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="nav">
+    <a href="home.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="order.html">Order</a>
+    <a href="events.html">Events</a>
+    <a href="contact.html">Contact</a>
+</div>
+
+<div class="hero">
+
+```
+<h1>Order</h1>
+
+<p>
+    Submit an order request below.
+</p>
+
+<form action="https://formspree.io/f/mykvqadj" method="POST">
+
+    <input
+        type="text"
+        name="name"
+        placeholder="Name"
+        required>
+
+    <input
+        type="email"
+        name="email"
+        placeholder="Email"
+        required>
+
+    <input
+        type="tel"
+        name="phone"
+        placeholder="Phone Number">
+
+    <textarea
+        name="order"
+        placeholder="What would you like to order?"
+        rows="5"
+        required></textarea>
+
+    <textarea
+        name="event"
+        placeholder="Is this for an event?"
+        rows="3"
+        required></textarea>
+
+    <button type="submit">
+        Submit Request
+    </button>
+
+</form>
+```
+
+</div>
+
+</body>
+</html>
